@@ -2,3 +2,11 @@
 
 Given JSON returned by a github containing particular gist information it prints its files content.
 
+```js
+var printContent = require('..')
+  , fs = require('fs');
+
+fs.createReadStream(__dirname + '/one-file.json', { encoding: 'utf-8' })
+  .pipe(printContent())
+  .pipe(process.stdout);
+```
