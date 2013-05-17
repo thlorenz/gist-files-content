@@ -1,0 +1,33 @@
+{
+  "name": "gist-print-content",
+  "version": "0.0.0",
+  "description": "Given JSON returned by a github containing particular gist information it prints its files content.",
+  "main": "gist-print-content.js",
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/thlorenz/gist-print-content.git"
+  },
+  "homepage": "https://github.com/thlorenz/gist-print-content",
+  "dependencies": {
+    "through": "~2.3.4"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "gist",
+    "content",
+    "JSON",
+    "stream"
+  ],
+  "author": {
+    "name": "Thorsten Lorenz",
+    "email": "thlorenz@gmx.de",
+    "url": "http://thlorenz.com"
+  },
+  "license": "MIT",
+  "engine": {
+    "node": ">=0.6"
+  }
+}
