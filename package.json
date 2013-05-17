@@ -1,16 +1,16 @@
 {
-  "name": "gist-print-content",
+  "name": "gist-files-content",
   "version": "0.0.0",
-  "description": "Given JSON returned by a github containing particular gist information it prints its files content.",
-  "main": "gist-print-content.js",
+  "description": "Given JSON returned by a github containing particular gist information it returns its files content.",
+  "main": "gist-files-content.js",
   "scripts": {
     "test": "tap test/*.js"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/thlorenz/gist-print-content.git"
+    "url": "git://github.com/thlorenz/gist-files-content.git"
   },
-  "homepage": "https://github.com/thlorenz/gist-print-content",
+  "homepage": "https://github.com/thlorenz/gist-files-content",
   "dependencies": {
     "through": "~2.3.4"
   },
