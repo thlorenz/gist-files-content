@@ -14,7 +14,10 @@
   "dependencies": {
     "through": "~2.3.4"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "tape": "~1.0.2",
+    "tap": "~0.4.3"
+  },
   "keywords": [
     "gist",
     "content",

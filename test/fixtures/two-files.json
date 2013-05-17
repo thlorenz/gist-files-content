@@ -1,0 +1,148 @@
+{
+  "url": "https://api.github.com/gists/3815721",
+  "forks_url": "https://api.github.com/gists/3815721/forks",
+  "commits_url": "https://api.github.com/gists/3815721/commits",
+  "id": "3815721",
+  "git_pull_url": "https://gist.github.com/3815721.git",
+  "git_push_url": "https://gist.github.com/3815721.git",
+  "html_url": "https://gist.github.com/3815721",
+  "files": {
+    "script.js": {
+      "filename": "script.js",
+      "type": "application/javascript",
+      "language": "JavaScript",
+      "raw_url": "https://gist.github.com/raw/3815721/3d7220132136178467984b95e1f40b507242b6f0/script.js",
+      "size": 625,
+      "content": "var file = \"script.js\";"
+    },
+    "simple-js-inheritance.js": {
+      "filename": "simple-js-inheritance.js",
+      "type": "application/javascript",
+      "language": "JavaScript",
+      "raw_url": "https://gist.github.com/raw/3815721/6fc0d1c9e619846cb7c9db16905c8a9a3ca4a2b3/simple-js-inheritance.js",
+      "size": 1980,
+      "content": "var file = \"simple-js-inheritance.js\";"
+    }
+  },
+  "public": true,
+  "created_at": "2012-10-02T01:58:43Z",
+  "updated_at": "2012-10-02T01:58:43Z",
+  "description": "Simple JavaScript Inheritance By John Resig",
+  "comments": 0,
+  "user": {
+    "login": "keithmorris",
+    "id": 1172100,
+    "avatar_url": "https://secure.gravatar.com/avatar/918d7efdd607204ce51876164a6d921e?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+    "gravatar_id": "918d7efdd607204ce51876164a6d921e",
+    "url": "https://api.github.com/users/keithmorris",
+    "html_url": "https://github.com/keithmorris",
+    "followers_url": "https://api.github.com/users/keithmorris/followers",
+    "following_url": "https://api.github.com/users/keithmorris/following{/other_user}",
+    "gists_url": "https://api.github.com/users/keithmorris/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/keithmorris/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/keithmorris/subscriptions",
+    "organizations_url": "https://api.github.com/users/keithmorris/orgs",
+    "repos_url": "https://api.github.com/users/keithmorris/repos",
+    "events_url": "https://api.github.com/users/keithmorris/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/keithmorris/received_events",
+    "type": "User"
+  },
+  "comments_url": "https://api.github.com/gists/3815721/comments",
+  "forks": [
+
+  ],
+  "history": [
+    {
+      "user": {
+        "login": "keithmorris",
+        "id": 1172100,
+        "avatar_url": "https://secure.gravatar.com/avatar/918d7efdd607204ce51876164a6d921e?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+        "gravatar_id": "918d7efdd607204ce51876164a6d921e",
+        "url": "https://api.github.com/users/keithmorris",
+        "html_url": "https://github.com/keithmorris",
+        "followers_url": "https://api.github.com/users/keithmorris/followers",
+        "following_url": "https://api.github.com/users/keithmorris/following{/other_user}",
+        "gists_url": "https://api.github.com/users/keithmorris/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/keithmorris/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/keithmorris/subscriptions",
+        "organizations_url": "https://api.github.com/users/keithmorris/orgs",
+        "repos_url": "https://api.github.com/users/keithmorris/repos",
+        "events_url": "https://api.github.com/users/keithmorris/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/keithmorris/received_events",
+        "type": "User"
+      },
+      "version": "22342357651beb07e86cba5ea8231b725827a969",
+      "committed_at": "2012-10-02T02:06:15Z",
+      "change_status": {
+        "total": 31,
+        "additions": 31,
+        "deletions": 0
+      },
+      "url": "https://api.github.com/gists/3815721/22342357651beb07e86cba5ea8231b725827a969"
+    },
+    {
+      "user": {
+        "login": "mjfathinia",
+        "id": 1007948,
+        "avatar_url": "https://secure.gravatar.com/avatar/177264e6f07c4f58e376b259fcb8a1d0?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+        "gravatar_id": "177264e6f07c4f58e376b259fcb8a1d0",
+        "url": "https://api.github.com/users/mjfathinia",
+        "html_url": "https://github.com/mjfathinia",
+        "followers_url": "https://api.github.com/users/mjfathinia/followers",
+        "following_url": "https://api.github.com/users/mjfathinia/following{/other_user}",
+        "gists_url": "https://api.github.com/users/mjfathinia/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/mjfathinia/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/mjfathinia/subscriptions",
+        "organizations_url": "https://api.github.com/users/mjfathinia/orgs",
+        "repos_url": "https://api.github.com/users/mjfathinia/repos",
+        "events_url": "https://api.github.com/users/mjfathinia/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/mjfathinia/received_events",
+        "type": "User"
+      },
+      "version": "e691f3bf8698bd87c15b11860db905bc8eeaf221",
+      "committed_at": "2012-10-02T01:51:18Z",
+      "change_status": {
+        "total": 63,
+        "additions": 63,
+        "deletions": 0
+      },
+      "url": "https://api.github.com/gists/3815721/e691f3bf8698bd87c15b11860db905bc8eeaf221"
+    }
+  ],
+  "fork_of": {
+    "url": "https://api.github.com/gists/3815690",
+    "forks_url": "https://api.github.com/gists/3815690/forks",
+    "commits_url": "https://api.github.com/gists/3815690/commits",
+    "id": "3815690",
+    "git_pull_url": "https://gist.github.com/3815690.git",
+    "git_push_url": "https://gist.github.com/3815690.git",
+    "html_url": "https://gist.github.com/3815690",
+    "files": {
+
+    },
+    "public": true,
+    "created_at": "2012-10-02T01:51:17Z",
+    "updated_at": "2012-10-02T01:51:17Z",
+    "description": "Simple JavaScript Inheritance By John Resig",
+    "comments": 0,
+    "user": {
+      "login": "mjfathinia",
+      "id": 1007948,
+      "avatar_url": "https://secure.gravatar.com/avatar/177264e6f07c4f58e376b259fcb8a1d0?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+      "gravatar_id": "177264e6f07c4f58e376b259fcb8a1d0",
+      "url": "https://api.github.com/users/mjfathinia",
+      "html_url": "https://github.com/mjfathinia",
+      "followers_url": "https://api.github.com/users/mjfathinia/followers",
+      "following_url": "https://api.github.com/users/mjfathinia/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mjfathinia/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mjfathinia/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mjfathinia/subscriptions",
+      "organizations_url": "https://api.github.com/users/mjfathinia/orgs",
+      "repos_url": "https://api.github.com/users/mjfathinia/repos",
+      "events_url": "https://api.github.com/users/mjfathinia/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mjfathinia/received_events",
+      "type": "User"
+    },
+    "comments_url": "https://api.github.com/gists/3815690/comments"
+  }
+}

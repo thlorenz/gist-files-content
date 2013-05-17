@@ -29,15 +29,16 @@ module.exports = function (json_, opts) {
 
   function onend() {
     try {
-      return this.queue(contents(json, opts));
+      this.queue(contents(json, opts));
+      this.queue(null);
     } catch (e) {
-      this.queue(e);
+      this.emit('error', e);
     }
   }
   
   function parse(json) {
     try {
-      return contents(json);
+      return contents(json, opts);
     } catch (e) {
       console.error(e);
       console.error('TODO: handle json parse error');
