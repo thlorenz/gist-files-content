@@ -10,9 +10,15 @@ var through = require('through');
  * @function
  * @param json_ {String}
  */
-module.exports = function (json_) {
+module.exports = function (json_, opts) {
 
-  if (json_) return parse(json_);
+  if (typeof json_ === 'object') {
+    opts = json_;
+    json_ = null;
+  }
+
+  opts = opts || {};
+  if (json_) return parse(json_, opts);
 
   var json = '';
   return through(ondata, onend);
@@ -23,7 +29,7 @@ module.exports = function (json_) {
 
   function onend() {
     try {
-      return this.queue(contents(json));
+      return this.queue(contents(json, opts));
     } catch (e) {
       this.queue(e);
     }
@@ -40,12 +46,16 @@ module.exports = function (json_) {
   }
   
 
-  function contents(json) {
+  function contents(json, opts) {
     var gist = JSON.parse(json);      
+    if (typeof opts.files === 'string') opts.files = [ opts.files ];
 
     if (!gist.files) return '';
 
     return Object.keys(gist.files)
+      .filter(function (f) {
+        return !opts.files || ~opts.files.indexOf(f);
+      })
       .map(function (f) {
         return gist.files[f].content;
       })
