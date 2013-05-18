@@ -1,6 +1,6 @@
 {
   "name": "gist-files-content",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Given JSON returned by a github containing particular gist information it returns its files content.",
   "main": "gist-files-content.js",
   "scripts": {
