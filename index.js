@@ -2,13 +2,18 @@
 var through = require('through');
 
 /**
- * Takes json string, pulls out content for each file 
+ * Takes gist json_ string, pulls out content for each file 
  * and prints them separated by '.' line.
- * If filename is given, it will only print content for that file
+ * If json_ string is not given, it will return a stream that transforms 
+ * gist json into files contents string instead.
  * 
+ * If a filter is supplied via opts, only these files contents will be returned.
+ *
  * @name exports
  * @function
  * @param json_ {String}
+ * @param opts {Object} { filter {String|Array} }
+ * @return {String|Stream}
  */
 module.exports = function (json_, opts) {
 
