@@ -4,7 +4,8 @@
   "description": "Given JSON returned by a github containing particular gist information it returns its files content.",
   "main": "gist-files-content.js",
   "scripts": {
-    "test": "tap test/*.js"
+    "test": "tap test/*.js",
+    "tape": "browserify test/*.js --debug > test/browser/bundle.js && open test/browser/index.html"
   },
   "repository": {
     "type": "git",
