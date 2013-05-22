@@ -7,7 +7,7 @@ var through = require('through');
  * If json_ string is not given, it will return a stream that transforms 
  * gist json into files contents string instead.
  * 
- * If a filter is supplied via opts, only these files contents will be returned.
+ * If a file filter is supplied via opts, only these files contents will be returned.
  *
  * @name exports
  * @function
@@ -57,10 +57,10 @@ module.exports = function (json_, opts) {
     if (typeof opts.files === 'string') opts.files = [ opts.files ];
 
     if (!gist.files) return '';
-
+    
     return Object.keys(gist.files)
       .filter(function (f) {
-        return !opts.files || ~opts.files.indexOf(f);
+        return !!(!opts.files || ~opts.files.indexOf(f));
       })
       .map(function (f) {
         return gist.files[f].content;

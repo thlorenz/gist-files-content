@@ -22,8 +22,11 @@ var filter = (function() {
   filterIdx = ~filterIdx ? filterIdx : argv.indexOf('-f');
   return ~filterIdx ? argv[filterIdx + 1] : null;
 })();
+var files = filter 
+  ? filter.split(',').map(function (s) { return s.trim(); }) 
+  : null;
 
 // pipe
 process.stdin
-  .pipe(filesContent())
+  .pipe(filesContent({ files: files }))
   .pipe(process.stdout);
