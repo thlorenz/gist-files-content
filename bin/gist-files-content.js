@@ -2,7 +2,7 @@
 
 var filesContent =  require('..')
   , fs           =  require('fs')
-  , args         =  process.argv;
+  , argv         =  process.argv;
 
 
 function printUsage() {
@@ -16,6 +16,12 @@ function printUsage() {
   console.error(msg);
   process.exit(1);
 }
+
+var filter = (function() {
+  var filterIdx = argv.indexOf('--filter');
+  filterIdx = ~filterIdx ? filterIdx : argv.indexOf('-f');
+  return ~filterIdx ? argv[filterIdx + 1] : null;
+})();
 
 // pipe
 process.stdin
