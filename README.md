@@ -42,7 +42,7 @@ content of file 1 ....
  * If json_ string is not given, it will return a stream that transforms 
  * gist json into files contents string instead.
  * 
- * If a filter is supplied via opts, only these files contents will be returned.
+ * If a file filter is supplied via opts, only these files contents will be returned.
  *
  * @name exports
  * @function
@@ -51,3 +51,7 @@ content of file 1 ....
  * @return {String|Stream}
  */
  ```
+
+## Command Line
+
+    curl https://api.github.com/gists/3815721 | gist-files-content.js --filter script.js
